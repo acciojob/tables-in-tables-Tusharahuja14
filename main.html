@@ -6,14 +6,16 @@
     <title>Table</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+    <body>
     <table border="1">
+      <!-- Main table -->
+
       <!-- Row 1 containing two nested tables -->
       <tr>
         <!-- Nested Table 2 -->
-        <td rowspan="2">
+        <td >
           <table border="1">
-            <caption>Nested Table 2</caption>
+            <th colspan=3>Nested Table 2</th>
             <tr>
               <th>Column 1</th>
               <th>Column 2</th>
@@ -28,14 +30,14 @@
         <!-- Nested Table 1 with list -->
         <td>
           <table border="1">
-            <caption>Nested Table 1</caption>
+            <th>Nested Table 1</th>
             <tr>
               <td>
-                <ol>
+                <ul>
                   <li>List item 1</li>
                   <li>List item 2</li>
                   <li>List item 3</li>
-                </ol>
+                </ul>
               </td>
             </tr>
           </table>
@@ -46,20 +48,20 @@
       <tr>
         <td>
           <table border="1">
-            <caption>Nested Table 3</caption>
+            <th colspan=2>Nested Table 3</th>
             <tr>
               <td><a href="Nested">Nested Table</a></td>
               <td>Demo Content</td>
             </tr>
           </table>
         </td>
-      </tr>
+     
 
-      <!-- Row 3 containing the black background cell -->
-      <tr>
+      
+    
         <td>
           <table border="1">
-            <caption>Nested Table 4</caption>
+            <th>Nested Table 4</th>
             <tr>
               <td class="black-cell" colspan="2">HTML</td>
             </tr>
@@ -68,4 +70,5 @@
       </tr>
     </table>
   </body>
+</html>
 </html>
